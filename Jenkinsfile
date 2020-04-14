@@ -13,7 +13,7 @@ pipeline {
 
          stage('Testing Stage') {
              steps {
-                bat "mvn test verify"
+                bat "mvn test"
         }
     }
 
